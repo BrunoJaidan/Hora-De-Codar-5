@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #3498db; 
+    text-align: center;
+    margin-bottom: 30px; 
+    text-transform: uppercase; 
+  }
+
+  input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; 
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 200px;
+    text-align: center;
+  }
+  
+  input[value="Cadastrar Estudantes"] {
+    background-color: #2980b9;
+  }
+  
+  input[value="Verificar Planetas"] {
+    background-color: #2980b9;
+  }
+  
+  input[value="Lista de Compras"] {
+    background-color: #2980b9;
+  }
+  
